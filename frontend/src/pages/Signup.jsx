@@ -16,7 +16,7 @@ function Signup() {
         { name, email, password }
       );
       if (response.data.success) {
-        navigate("./Login");
+        navigate("/Login");
       }
       console.log(response);
     } catch (error) {

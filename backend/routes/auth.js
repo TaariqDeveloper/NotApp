@@ -4,7 +4,8 @@ const Route = express.Router()
 
 Route.post("/api/auth/register", userController.CreateUser)
 
-Route.post("/api/auth/login" , userController.CreateLogin)
+Route.post("/api/auth/login", userController.CreateLogin)
+
 
 
 
