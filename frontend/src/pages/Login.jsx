@@ -131,15 +131,15 @@ function Login() {
             type="submit" // Submit action for the form
             className="w-full bg-blue-500 text-white py-3 rounded-md hover:bg-blue-600 transition duration-300"
           >
-            Signup
+            Login
           </button>
         </form>
 
         <p className="text-center text-gray-500 mt-4">
-          Already have an account?{" "}
-          <NavLink to="/Login">
+          Don't have an account
+          <NavLink to="/register">
             <a href="#" className="text-blue-500 hover:underline">
-              Login
+              Register
             </a>
           </NavLink>
         </p>
